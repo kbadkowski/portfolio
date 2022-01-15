@@ -1,3 +1,41 @@
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-default .navbar-nav>li>a {
+    border-right: none;
+}
+
+.navbar-default .navbar-nav {
+    border-bottom: none;
+}
+
+.h2 {
+    margin-top: 5rem;
+}
+
+.h2:after, .h2:before, h2:after, h2:before {
+    content: none;
+}
+
 .m-top-8 {
     margin-top: 8rem;
 }
@@ -20,7 +58,6 @@
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
